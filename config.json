@@ -1,0 +1,85 @@
+{
+  "poloLenderConfig": {
+    "port": 5000,
+    "authToken": {
+      "readOnly": "ro-36y40wjbiklxvi",
+      "readWrite": "rw-36y40wjbiklxvj",
+      "tokenExpiresOn": "never"
+    },
+    "isTradingEnabled": true,
+    "startDate": "2017-12-22T23:52:07.000Z",
+    "startMessage": "Join poloLender discussion/support group on telegram: https://t.me/cryptozone",
+    "reportEveryMinutes": 240,
+    "startBalance": {
+      "BTC": "0.01020170",
+      "BTS": "0",
+      "CLAM": "0",
+      "DOGE": "34702.46043033",
+      "DASH": "0",
+      "LTC": "1.63517412",
+      "MAID": "0",
+      "STR": "0",
+      "XMR": "0",
+      "XRP": "113.24266715",
+      "ETH": "0",
+      "FCT": "0"
+    },
+    "offerMinRate": {
+      "BTC": ".006",
+      "BTS": "0",
+      "CLAM": "0",
+      "DOGE": ".1",
+      "DASH": "0",
+      "LTC": ".005",
+      "MAID": "0",
+      "STR": ".001",
+      "XMR": "0",
+      "XRP": "0",
+      "ETH": "0",
+      "FCT": "0"
+    },
+    "offerMaxAmount": {
+      "BTC": "9999999",
+      "BTS": "9999999",
+      "CLAM": "9999999",
+      "DOGE": "9999999",
+      "DASH": "9999999",
+      "LTC": "9999999",
+      "MAID": "9999999",
+      "STR": "9999999",
+      "XMR": "9999999",
+      "XRP": "9999999",
+      "ETH": "9999999",
+      "FCT": "9999999"
+    },
+    "lendingAdvisor": {
+      "server": "safe-hollows.crypto.zone",
+      "accessToken": ""
+    },
+    "apiKey": {
+      "key": "982LJQCM-YAU0YN5X-9VIN0GE6-K1O8FEJF",
+      "secret": "d733bbda34598161bc4295facfb9d858bf8e19515d822ad9f2e1100a851c136dbd431aac3684b381868a7cdb7f8f942a8feb48734ee0f66b9c87e678065ba89d"
+    },
+    "telegramReports": {
+      "isEnabled": false,
+      "reportEveryMin": 240,
+      "telegramToken": "",
+      "telegramUserId": ""
+    },
+    "maxApiCallsPerDuration": 8,
+    "apiCallsDurationMS": 1000,
+    "advancedSettings": {
+      "parallelApiExecution": false,
+      "nonceDelay": 500,
+      "muteNonceErrors": false
+    },
+    "debug": {
+      "debugApiCallDuration": false
+    },
+    "status": {
+      "lendingEngineStopTime": "1970-01-01T00:00:00Z",
+      "lendingEngineStopReason": "Manually stopped"
+    },
+    "utcOffset": -360
+  }
+}
